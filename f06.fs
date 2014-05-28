@@ -1,4 +1,4 @@
-let palindrome l = l.Equals (List.rev l)
+let isPalindrome l = l.Equals (List.rev l)
 ;;
 
-palindrome [1;2;3;2;1];;
+isPalindrome [1;2;3;2;1];;
