@@ -1,4 +1,4 @@
-let rec compress l =
+let rec compress<'a> l =
   match l with
     | [] -> []
     | x::y::xs when x = y -> compress(y::xs)
